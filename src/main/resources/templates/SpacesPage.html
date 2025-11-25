@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spaces</title>
+</head>
+<body>
+    <h1 style="margin-bottom: 20px;">Spaces:</h1>
+
+    <div th:each="space : ${spaces}"
+         style="border: 1px solid #ccc; padding: 10px; margin-bottom: 15px; border-radius: 4px;">
+
+        <h4 th:text="${space.getName}"
+            style="margin: 0 0 8px 0; font-size: 18px;"></h4>
+
+        <p th:text="${space.getDescription}"
+           style="margin: 0 0 6px 0;"></p>
+
+        <p th:text="'Price Per Night: £' + ${space.getPrice}"
+           style="font-weight: bold; margin: 0;"></p>
+
+    </div>
+</body>
+</html>

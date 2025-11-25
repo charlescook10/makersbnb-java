@@ -1,0 +1,1 @@
+ALTER TABLE spaces ADD COLUMN prices DECIMAL(12,2);

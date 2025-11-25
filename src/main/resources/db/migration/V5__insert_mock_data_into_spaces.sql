@@ -1,0 +1,16 @@
+INSERT INTO spaces (name, description, price) VALUES
+('Cozy Downtown Studio', 'A quiet studio apartment located in the heart of the city.', 89.00),
+('Lakeside Cabin Retreat', 'Rustic cabin with lake views and a private dock.', 145.50),
+('Sunny Beach Apartment', 'Oceanfront apartment with balcony and direct beach access.', 175.00),
+('Modern Loft Space', 'Open-concept loft with high ceilings and city skyline views.', 132.75),
+('Mountain Getaway Chalet', 'Charming chalet near hiking trails and ski slopes.', 210.00),
+('Urban Micro Apartment', 'Minimalist micro-unit ideal for short business stays.', 72.00),
+('Countryside Cottage', 'Quiet rural cottage with a garden and outdoor seating.', 98.50),
+('Luxury Penthouse Suite', 'High-end penthouse with rooftop terrace and jacuzzi.', 499.99),
+('Artist’s Workspace Loft', 'Creative loft space perfect for artists or remote workers.', 120.00),
+('Historic Brick Townhome', 'Renovated 19th-century townhome with vintage decor.', 160.00),
+('Tiny Home Escape', 'Self-contained tiny home with modern amenities.', 85.25),
+('Jungle Treehouse', 'Unique elevated treehouse surrounded by nature.', 140.00),
+('Desert Stargazing Pod', 'Geodesic pod with panoramic night sky views.', 110.00),
+('Suburban Family Home', 'Spacious home ideal for families, with large backyard.', 155.00),
+('Seaside Bungalow', 'Cozy bungalow just steps from the shore.', 130.00);
